@@ -26,7 +26,7 @@ class EvasiveRadar:
 
             time.sleep(1)
 
-            self.row_step += 1
+            self.row_step += 1 # row steps of the moving number
             print(f"\n{radar_map}\n")
 
             self.change_column_of_moving_number()
@@ -41,7 +41,7 @@ class EvasiveRadar:
         if all(radar_map[-self.matrix_col:, self.return_pos] == 0):
             self.own_row += 1
 
-    def change_column_of_moving_number(self):  # steps of the moving number
+    def change_column_of_moving_number(self):  # if the moving number reached the bottom of the matrix it steps one column to right
         if self.row_step == self.matrix_col:
             self.obj_col += 1
             self.row_step = 0
