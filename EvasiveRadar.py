@@ -12,7 +12,6 @@ class EvasiveRadar:
 
         self.row_step = 0  # position of the moving number
         self.obj_col = 0
-        self.obj_col += 1
 
     def display_radar(self):
 
@@ -57,4 +56,5 @@ class EvasiveRadar:
 if __name__ == "__main__":
     obj = EvasiveRadar(4)
     obj.display_radar()
-    something = 10 + 10
+    something = "Something here is not good
+    result = 5 + something
