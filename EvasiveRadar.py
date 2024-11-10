@@ -12,6 +12,7 @@ class EvasiveRadar:
 
         self.row_step = 0  # position of the moving number
         self.obj_col = 0
+        self.obj_col += 1
 
     def display_radar(self):
 
