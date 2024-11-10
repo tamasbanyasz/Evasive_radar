@@ -56,4 +56,4 @@ class EvasiveRadar:
 if __name__ == "__main__":
     obj = EvasiveRadar(4)
     obj.display_radar()
-    
+    something = 10 + 10
